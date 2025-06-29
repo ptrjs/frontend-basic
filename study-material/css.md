@@ -163,110 +163,163 @@ Create a folder named `icecream` and add two files:
 ### `index.html`
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Zexo Ice Cream</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <title>Ice Cream Shop</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Zexo Ice Cream</h1>
-        <p>Enjoy the Sweet Sensation</p>
-    </header>
+  <header>
+    <h1>🍦 Ice Cream Paradise</h1>
+    <p>Treat yourself to happiness</p>
+  </header>
 
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
 
-    <section id="menu">
-        <h2>Ice Cream Menu</h2>
-        <div class="ice-cream">
-            <img src="https://img.freepik.com/free-photo/cornet-ice-cream-with-strawberry-scoop-colorful-surface_463209-35.jpg?w=900&t=st=1697370192~exp=1697370792~hmac=a915bb72a43604b81f5587132d45a077ae5caef0fae976d625e88478474d4653" alt="Ice Cream 1">
-            <h3>Raspberry Sorbet</h3>
-            <p>Experience the freshness of raspberry in our sorbet.</p>
-            <span>Rp 25.000</span>
+  <main>
+    <section class="menu-section">
+      <h2>Our Favorite Flavors</h2>
+      <div class="ice-cream-grid">
+        <div class="ice-cream-card">
+          <img src="https://i.ibb.co/vC01GPg4/delicious-ice-cream-studio.jpg" alt="Vanilla Ice Cream">
+          <h3>Vanilla Ice Cream</h3>
+          <p>Smooth and classic taste of vanilla bean.</p>
+          <span class="price">Rp 10.000</span>
         </div>
-
-        <div class="ice-cream">
-            <img src="https://img.freepik.com/free-photo/high-angle-hand-holding-ice-cream-cup_23-2149681943.jpg?w=900&t=st=1697370298~exp=1697370898~hmac=54bf42e3e84cd5d10e073448e93659a7e83fa5214af0c8cb569badbca640e5c5" alt="Ice Cream 2">
-            <h3>Chocolate Delight</h3>
-            <p>Enjoy the richness of chocolate in this scoop.</p>
-            <span>Rp 30.000</span>
+        <div class="ice-cream-card">
+          <img src="https://i.ibb.co/67BYs2RR/melting-ice-cream-cone.jpg" alt="Triple Trouble">
+          <h3>Triple Trouble</h3>
+          <p>Three scoops of ultimate pleasure!</p>
+          <span class="price">Rp 30.000</span>
         </div>
+      </div>
     </section>
+  </main>
 
-    <footer>
-        <p>&copy; 2023 Zexo Ice Cream</p>
-    </footer>
+  <footer>
+    <p>&copy; 2025 Ice Cream Paradise</p>
+  </footer>
 </body>
 </html>
+
 ```
 
 ### `style.css`
 ```css
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #faf8f9;
+  color: #333;
 }
 
 header {
-    background-color: #ff6600;
-    color: white;
-    text-align: center;
-    padding: 20px;
+  background: #ffd3e0;
+  text-align: center;
+  padding: 40px 20px;
+  color: #5b2c6f;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
 }
 
 nav ul {
-    background-color: #ff6600;
-    list-style: none;
-    padding: 0;
-    text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #ff92a5;
+  margin: 0;
+  padding: 10px 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+  margin: 0 20px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
-section {
-    margin: 20px;
+nav ul li a:hover {
+  color: #ffe;
 }
 
-h2 {
-    text-align: center;
+.menu-section {
+  padding: 40px 20px;
 }
 
-.ice-cream {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
+.menu-section h2 {
+  text-align: center;
+  color: #d63384;
+  margin-bottom: 30px;
 }
 
-img {
-    width: 300px;
-    height: auto;
+.ice-cream-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.ice-cream-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.ice-cream-card img {
+  width: 100%;
+  border-radius: 12px;
+  height: auto;
+}
+
+.ice-cream-card h3 {
+  margin: 15px 0 10px;
+  color: #ff5e99;
+}
+
+.ice-cream-card p {
+  font-size: 0.95em;
+  color: #555;
+}
+
+.price {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #5b2c6f;
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
+  background: #ff92a5;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
 }
+
 ```
 
 ## CSS Exploration Challenge
