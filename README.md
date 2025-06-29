@@ -8,3 +8,6 @@ We also learn website interactive using Javascript
 
 - [HTML](https://github.com/ptrjs/frontend-basic/blob/main/study-material/html.md)
 - [CSS](https://github.com/ptrjs/frontend-basic/blob/main/study-material/css.md)
+
+## Exercise 😈
+- [Exercise 1](https://github.com/ptrjs/frontend-basic/blob/main/exercise-material/exercise1.md)
