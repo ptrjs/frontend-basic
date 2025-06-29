@@ -5,3 +5,6 @@ We also learn website interactive using Javascript
 
 
 ## Study Material
+
+- [HTML](https://github.com/ptrjs/frontend-basic/blob/main/study-material/html.md)
+- [CSS](https://github.com/ptrjs/frontend-basic/blob/main/study-material/css.md)
