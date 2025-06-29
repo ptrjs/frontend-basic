@@ -176,7 +176,8 @@ Create a file named `index.html` in your VS Code, and open it. The `index.html` 
 </html>
 ```
 
-![image](https://github.com/user-attachments/assets/3fadbb6b-e8cd-4ec3-81cf-6c41014dcc1f)
+![image](https://github.com/user-attachments/assets/bc1f1f44-299c-4e70-ac77-490ff4df32bb)
+
 
 Recreate your own version of this HTML, try out all the tags and submit your HTML file.
 
