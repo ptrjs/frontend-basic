@@ -1,4 +1,4 @@
-# 🧪 Exercise 1: Build Your Own Mini Website
+# 🧪 Challenge 1: Build Your Own Mini Website
 Create a simple website similar to the Ice Cream Paradise example.
 But this time, use your own theme! Be creative and choose something you're excited about, such as:
 

@@ -343,5 +343,5 @@ Explore the following concepts from https://www.w3schools.com/w3css/default.asp:
 
 Mastering these concepts will help you design advanced, appealing, and responsive web pages.
 
-## Exercise 😈
-- [Exercise 1](https://github.com/ptrjs/frontend-basic/blob/main/exercise-material/exercise1.md)
+## Challenge 😈
+- [Challenge 1](https://github.com/ptrjs/frontend-basic/blob/main/challenge/challenge1.md)
