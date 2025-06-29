@@ -43,7 +43,6 @@ Your Website Should Include:
 ✅ A footer
 
 ## 💡 Bonus Points If You:
-Use Google Fonts
 
 Make the layout responsive with media queries
 
